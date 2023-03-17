@@ -31,11 +31,12 @@ main {
 }
 
 span,
-span a {
+span a,
+h1 {
   color: white;
 }
 
-#odin {
+h1 {
   font-size: 5.5rem;
   font-family: Norse-Bold;
 }
@@ -64,10 +65,12 @@ img {
 /* Content */
 #content {
   flex: 1;
-  padding-left: 2rem;
   margin-top: 10rem;
-  max-width: 48%;
   font-size: 1.5rem;
+}
+
+#content > *:not(form) {
+  margin-left: 2rem;
 }
 
 #content > *:not(:last-child) {
@@ -75,5 +78,10 @@ img {
 }
 
 form {
-  
+  background: white;
+  padding: 1rem 15% 1rem 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
 }
