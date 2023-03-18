@@ -103,4 +103,5 @@ input {
   height: 1.5rem;
   display: block;
   outline-color: blue;
+  border-radius: 5px;
 }
