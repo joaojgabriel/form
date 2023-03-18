@@ -83,5 +83,20 @@ form {
   padding-left: 2rem;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 20px 80px;
+}
+
+h2 {
+  font-size: 2rem;
+  width: 100%;
+}
+
+label {
   font-size: 1rem;
+}
+
+input {
+  width: 200px;
+  display: block;
 }
