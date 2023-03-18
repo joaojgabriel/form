@@ -98,5 +98,7 @@ label {
 
 input {
   width: 200px;
+  height: 1.5rem;
   display: block;
+  outline-color: blue;
 }
