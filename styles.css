@@ -105,4 +105,5 @@ input {
   border-color: #e5e7eb;
   outline-color: blue;
   border-radius: 5px;
+  padding: 0 0.5rem;
 }
