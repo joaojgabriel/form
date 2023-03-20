@@ -70,7 +70,7 @@ img {
   flex: 1;
   margin-top: 10rem;
   font-size: 1.5rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #content > div {
@@ -138,4 +138,14 @@ button {
   padding: 1rem 2rem;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button + p {
+  font-size: 1rem;
+}
+
+button + p > a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
 }
