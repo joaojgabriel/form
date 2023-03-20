@@ -32,7 +32,8 @@ main {
 
 span,
 span a,
-h1 {
+h1,
+button {
   color: white;
 }
 
@@ -124,4 +125,16 @@ input:focus {
 
 input:invalid {
   border-color: red;
+}
+
+button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #596d48;
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
